@@ -106,8 +106,8 @@ if __name__ == '__main__':
     M, N = 20, 20
     print('Total process: %d' % (process))
     start = time.time()
-    rewards_path = './rewards.data'
-    decisions_path = './decisions.data'
+    rewards_path = './rewards.dat'
+    decisions_path = './decisions.dat'
     with open(decisions_path, 'rb') as df:
         decisions = pickle.load(df)
         num = len(decisions)

@@ -1,4 +1,3 @@
-import Ipynb_importer
 import numpy as np
 import tensorflow as tf
 from utils import conv2d_flipkernel

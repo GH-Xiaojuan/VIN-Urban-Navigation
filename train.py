@@ -3,9 +3,7 @@ import numpy as np
 import tensorflow as tf
 from model import VI_Block
 from utils import fmt_row
-from data import process_data_bucks
-import pickle
-from utils import conv2d_flipkernel
+from data.data import process_data_bucks
 
 # Data
 tf.app.flags.DEFINE_integer('databucks',         10,                      'Size of input data bucks')
